@@ -2,7 +2,7 @@
 <html lang="it">
 <head>
 	<meta charset="utf-8">
-	<title>Petrosino, ... perché certi siti, apps, mappe, servizi sono un po' come il prezzomolo e non è facili distinguerli ... </title>
+	<title>Petrusino, ... perché certi siti, apps, mappe, servizi sono un po' come il prezzomolo e non è facili distinguerli ... </title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="">
 	<meta name="author" content="">
@@ -65,7 +65,7 @@
     	border: 0; border-top: 1px solid #5CB85C;
     	margin: 1em 0; padding: 0; } 
 
-    	.petrosino {
+    	.petrusino {
     		color: #5CB85C !important;
     	}
 
@@ -75,6 +75,15 @@
     		background-color: #f7f7f9;
     		border: 1px solid #e1e1e8;
     		border-radius: 4px;
+    	}
+
+    	ul.share-buttons{
+    		list-style: none;
+    		padding: 0;
+    	}
+
+    	ul.share-buttons li{
+    		display: inline;
     	}
 
     	</style>
@@ -152,7 +161,11 @@
 				<p class="text-center">... perch&eacute; certi <span class="btn btn-primary btn-xs"><strong>siti</strong></span>, <span class="btn btn-danger btn-xs"><strong>apps</strong></span>, <span class="btn btn-info btn-xs"><strong>mappe</strong></span>, <span class="btn btn-warning btn-xs"><strong>servizi</strong></span> sono un po' come il <span class="btn btn-success btn-xs"><strong>prezzomolo</strong></span> e non &egrave; facili distinguerli ...</p>
 			</div>
 			<div class="col-md-2 column">
-
+				<ul class="share-buttons">
+					<li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fpetrusino.opendatasicilia.it&t=" title="Share on Facebook" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&t=' + encodeURIComponent(document.URL)); return false;"><img src="img/Facebook.png"></a></li>
+					<li><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fpetrusino.opendatasicilia.it&text=:%20http%3A%2F%2Fpetrusino.opendatasicilia.it&via=opendatasicilia" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20'  + encodeURIComponent(document.URL)); return false;"><img src="img/Twitter.png"></a></li>
+					<li><a href="https://plus.google.com/share?url=http%3A%2F%2Fpetrusino.opendatasicilia.it" target="_blank" title="Share on Google+" onclick="window.open('https://plus.google.com/share?url=' + encodeURIComponent(document.URL)); return false;"><img src="img/Google+.png"></a></li>
+				</ul>
 			</div>
 
 		</div>		
@@ -196,7 +209,7 @@
 
 						<div ex:role="exhibit-lens" class="app-thumbnail thumbnail" style="display: none;">
 							<div class="text-center">
-								<a ex:href-content=".URL" target="new" ><strong><span ex:content=".label" class="petrosino"></strong></span></a>
+								<a ex:href-content=".URL" target="new" ><strong><span ex:content=".label" class="petrusino"></strong></span></a>
 							</div>
 							<div>
 								<span ex:content=".descrizione"></span>
