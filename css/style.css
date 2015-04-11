@@ -39,3 +39,7 @@ ul.share-buttons{
 ul.share-buttons li{
   display: inline;
 }
+
+.logo {
+  padding: 0px 15px !important;
+}
