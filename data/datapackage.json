@@ -1,0 +1,67 @@
+{
+    "name": "Petrusino",
+    "title": "Petrusino ... perché certi siti, apps, mappe, servizi sono un po' come il prezzomolo e non è facili distinguerli ...",
+    "description": "Petrusino è un catalogo multitematico di siti web, applicazioni per dispositivi mobili, mappe online, servizi web e infografiche. È stato realizzato per permetterne una più facile individuazione ai più diversi tipi di utenza: cittadini, imprese, associazioni, turisti, studiosi, ecc..",
+    "homepage": "http://petrusino.opendatasicilia.it/",
+    "licenses": [
+        {
+            "id": "CC BY-SA",
+            "name": "CC BY-SA",
+            "version": "4",
+            "url": "http://creativecommons.org/licenses/by-sa/4.0/"
+        }
+    ],
+    "resources": [
+        {
+            "url": "https://spreadsheets.google.com/tq?tqx=out:csv&tq=SELECT%20A%2CB%2CC%2CD%2CE%2CF%2CG&key=1H38J-cLEAt8VhDuhMvJgSGH4KzT0LrhFl9tvGTQpqWI",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "schema": {
+                "fields": [
+                    {
+                        "index": 0,
+                        "name": "{label}",
+                        "description": "Nome della risorsa",
+                        "type": "string"
+                    },
+                    {
+                        "index": 1,
+                        "name": "{type}",
+                        "description": "Tipologia di risorsa",
+                        "type": "string"
+                    },
+                    {
+                        "index": 2,
+                        "name": "{categoria}",
+                        "description": "Categorie a cui è associata la risorsa",
+                        "type": "string"
+                    },
+                    {
+                        "index": 3,
+                        "name": "{tag}",
+                        "description": "Tag a cui è associata la risorsa",
+                        "type": "string"
+                    },
+                    {
+                        "index": 4,
+                        "name": "{descrizione:single}",
+                        "description": "Descrizione della risorsa",
+                        "type": "string"
+                    },
+                    {
+                        "index": 5,
+                        "name": "{territorio}",
+                        "description": "Territorio in cui è utile la risorsa",
+                        "type": "string"
+                    },
+                    {
+                        "index": 6,
+                        "name": "{URL}",
+                        "description": "URL della risorsa",
+                        "type": "string"
+                    }
+                ]
+            }
+        }
+    ]
+}

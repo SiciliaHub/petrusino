@@ -11,15 +11,15 @@
     <meta property="og:title" content="Petrusino, ... perché certi siti, apps, mappe, servizi sono un po' come il prezzemolo e non è facili distinguerli ..." />
     <meta property="og:url" content="http://petrusino.opendatasicilia.it" />
 
-	<!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
-	<!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
-	<!--script src="js/less-1.3.3.min.js"></script-->
-	<!--append ‘#!watch’ to the browser URL, then refresh the page. -->
-	
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet">
+    <!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
+    <!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
+    <!--script src="js/less-1.3.3.min.js"></script-->
+    <!--append ‘#!watch’ to the browser URL, then refresh the page. -->
 
-	<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
   	<!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <![endif]-->
@@ -36,127 +36,90 @@
     <script type="text/javascript" src="js/scripts.js"></script>
 
 
+    <script type="text/javascript" src="./js/ga.js"></script>
 
-    <style>
+</head>
 
+<body>
+ <div class="container">
+  <div class="row clearfix">
+   <div class="col-md-12 column">
+    <nav class="navbar navbar-default" role="navigation">
+     <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> 
+      <a class="navbar-brand" href="./index.html">
+       <img style="max-width:100px; margin-top: -14px;"	src="./img/pitrusino.png">
+   </a>
+</div>
 
-    .exhibit-tileView-body { list-style: none; }
-    .exhibit-collectionView-group-count { display: none; }
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+  <ul class="nav navbar-nav">
+   <li >
+    <a href="./index.html">Home</a>
+</li>
+<li class="active">
+    <a href="./cosa.html" >Cosa è</a>
+</li>							
+<li>
+    <a href="./proponi.html">Proponi</a>
+</li>
+<li>
+    <a href="./open.html">Open</a>
+</li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+   <li>
+    <a href="http://opendatasicilia.it/">OpenDataSicilia</a>
+</li>
+</ul>
+</div>
 
+</nav>
+</div>
+</div>
 
-    div.app-thumbnail {
-    	float:      left;
-    	width:      19.7em;
-    	height:     16em;
-    	border:     1px solid #BCB79E;
-    	background: #F2F2F2;
-    	padding:    1em;
-    	margin:     0.3em;
-    	overflow-y:auto;
-    	/*overflow: hidden;
-    	background-size: cover;
-    	background-position: 50%;
-    	background-repeat: no-repeat;*/
-    }
+<div class="row clearfix">
+   <div class="col-md-2 column">
 
-    hr { display: block; height: 1px;
-    	border: 0; border-top: 1px solid #5CB85C;
-    	margin: 1em 0; padding: 0; } 
+   </div>
 
-    	.petrosino {
-    		color: #5CB85C !important;
-    	}
+   <div class="col-md-8 column">
+     <blockquote>
+        <p><strong>Petrusino</strong> &egrave; "prezzemolo" in siciliano. Abbiamo pensato a questo nome per giocare un po' con il nostro amato dialetto, usando una parola che si associa a ci&ograve; che &egrave; un po' ovunque, in ogni minestra. E alle volte siti, app, mappe ... sono proprio come "u' petrusinu".</p>
+    </blockquote>
+    <p>
+     Petrusino &#232; un <strong>catalogo</strong> multitematico di <strong>siti web</strong>, <strong>applicazioni</strong> per dispositivi mobili, <strong>mappe online</strong>, <strong>servizi web</strong> e <strong>infografiche</strong>. &#200;
+     stato realizzato per permetterne una <strong>più facile individuazione</strong> ai più diversi tipi di utenza: cittadini, imprese,
+     associazioni, turisti, studiosi, ecc..
+ </p>
+ <p>
+     I contenuti provengono da siti della Pubblica Amministrazione e da portali di diverse comunit&#224; (privati, associazioni, ..).
+ </p>
+ <p>
+     L'obiettivo di Petrusino &#232; <strong>divulgare la cultura digitale</strong> quale strumento di supporto alla vita quotidiana di ogni cittadino, veicolando contenuti creati attraverso la generazione e l'utilizzo di dati.
+ </p>
+ <p>
+     &#200; un <strong>iniziativa collettiva</strong> e si nutre della collaborazione di chi condivide le finalit&#224; descritte.
+ </p>
 
-    	.highlight {
-    		padding: 9px 14px;
-    		margin-bottom: 14px;
-    		background-color: #f7f7f9;
-    		border: 1px solid #e1e1e8;
-    		border-radius: 4px;
-    	}
+ <h3>Credits</h3>
+ <p>Nasce da una proposta di <a href="https://twitter.com/giuliodichiara" target="_blank"><strong>Giulio Di Chiara</strong></a>, per valorizzare il lavoro fatto da <a href="https://twitter.com/cirospat" target="_blank"><strong>Ciro Spataro</strong></a> per  <a href="https://sites.google.com/site/palermoapp/home" target="_blank"><strong>apPalermo</strong></a>.</p>
+ <p>Progettazione e implementazione di <a href="https://twitter.com/aborruso/" target="_blank"><strong>Andrea Borruso</strong></a>.</p>
+ <p>L'<strong>icona</strong> di Petrusino &egrave; di <a href="https://thenounproject.com/evanmacdonald/" target="_blank">Evan MacDonald</a> del the Noun Project.</p>
+</div>
+<div class="col-md-2 column">
 
-    	</style>
+</div>
 
-    </head>
+</div>		
 
-    <body>
-    	<div class="container">
-    		<div class="row clearfix">
-    			<div class="col-md-12 column">
-    				<nav class="navbar navbar-default" role="navigation">
-    					<div class="navbar-header">
-    						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> 
-    						<a class="navbar-brand" href="./index.html">
-    							<img style="max-width:100px; margin-top: -14px;"	src="./img/pitrusino.png">
-    						</a>
-    					</div>
+<hr>
+<footer>
+   <p class="text-center">
+    <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licenza Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a> <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Petrusino</span> di<a xmlns:cc="http://creativecommons.org/ns#" href="http://opendatasicilia.it" property="cc:attributionName" rel="cc:attributionURL"> Open Data Sicilia</a> è distribuito con Licenza <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribuzione - Condividi allo stesso modo 4.0 Internazionale</a>.
+</p>
+</footer>
 
-    					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-    						<ul class="nav navbar-nav">
-    							<li >
-    								<a href="./index.html">Home</a>
-    							</li>
-    							<li class="active">
-    								<a href="./cosa.html" >Cosa è</a>
-    							</li>							
-    							<li>
-    								<a href="./proponi.html">Proponi</a>
-    							</li>
-    							<li>
-    								<a href="./open.html">Open</a>
-    							</li>
-						</ul>
-						<ul class="nav navbar-nav navbar-right">
-							<li>
-								<a href="http://opendatasicilia.it/">OpenDataSicilia</a>
-							</li>
-						</ul>
-					</div>
-
-				</nav>
-			</div>
-		</div>
-
-		<div class="row clearfix">
-			<div class="col-md-2 column">
-
-			</div>
-
-			<div class="col-md-8 column">
-				<p>
-					Petrusino &#232; un <strong>catalogo</strong> multitematico di <strong>siti web</strong>, <strong>applicazioni</strong> per dispositivi mobili, <strong>mappe online</strong>, <strong>servizi web</strong> e <strong>infografiche</strong>. &#200;
-					stato realizzato per permetterne una <strong>più facile individuazione</strong> ai più diversi tipi di utenza: cittadini, imprese,
-					associazioni, turisti, studiosi, ecc..
-				</p>
-				<p>
-					I contenuti provengono da siti della Pubblica Amministrazione e da portali di diverse comunit&#224; (privati, associazioni, ..).
-				</p>
-				<p>
-					L'obiettivo di Petrusino &#232; <strong>divulgare la cultura digitale</strong> quale strumento di supporto alla vita quotidiana di ogni cittadino, veicolando contenuti creati attraverso la generazione e l'utilizzo di dati.
-				</p>
-				<p>
-					&#200; un <strong>iniziativa collettiva</strong> e si nutre della collaborazione di chi condivide le finalit&#224; descritte.
-				</p>
-				<blockquote>
-				<p><strong>Petrusino</strong> &egrave; "prezzemolo" in siciliano. Abbiamo pensato a questo nome per giocare un po' con il nostro amato dialetto, usando una parola che si associa a ci&ograve; che &egrave; un po' ovunque, in ogni minestra. E alle volte siti, app, mappe ... sono proprio come "u' petrusinu".</p>
-				</blockquote>
-				<h3>Credits</h3>
-				<p>Nasce da una proposta di <a href="https://twitter.com/giuliodichiara" target="_blank"><strong>Giulio Di Chiara</strong></a>, per valorizzare il lavoro fatto da <a href="https://twitter.com/cirospat" target="_blank"><strong>Ciro Spataro</strong></a> per  <a href="https://sites.google.com/site/palermoapp/home" target="_blank"><strong>apPalermo</strong></a>.</p>
-				<p>L'<strong>icona</strong> di Petrusino &egrave; di <a href="https://thenounproject.com/evanmacdonald/" target="_blank">Evan MacDonald</a> del the Noun Project.</p>
-			</div>
-			<div class="col-md-2 column">
-
-			</div>
-
-		</div>		
-		
-		<hr>
-		<footer>
-			<p class="text-center">
-				<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licenza Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a> <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Petrusino</span> di<a xmlns:cc="http://creativecommons.org/ns#" href="http://opendatasicilia.it" property="cc:attributionName" rel="cc:attributionURL"> Open Data Sicilia</a> è distribuito con Licenza <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribuzione - Condividi allo stesso modo 4.0 Internazionale</a>.
-			</p>
-		</footer>
-
-	</div>
+</div>
 </body>
 </html>
