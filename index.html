@@ -47,6 +47,12 @@
 
     <script type="text/javascript" src="./js/ga.js"></script>
 
+    <script type="text/javascript">
+    var tableStyler = function(table, database) {
+    	$(table).addClass("table table-condensed");
+    };
+    </script>
+
 </head>
 
 <body>
@@ -140,38 +146,38 @@
 				<div ex:role="viewPanel" style="padding: 0in;">
 
 
-					<div ex:role="view" ex:viewClass="Thumbnail" ex:showAll="true" ex:orders=".label" ex:grouped="false">
-
-						<div ex:role="exhibit-lens" class="app-thumbnail thumbnail" style="display: none;">
-							<div class="text-center">
-								<a ex:href-content=".URL" target="new" ><strong><span ex:content=".label" class="petrusino"></strong></span></a>
-							</div>
-							<div>
-								<span ex:content=".descrizione"></span>
-							</div>
-							<hr>
-							<div>
-								<small><span><strong>Categoria: </strong></span><span ex:content=".categoria" class="text-uppercase"></span></small>
-								<br>
-								<small><span><strong>Territorio: </strong></span></strong><span ex:content=".territorio" class="text-uppercase"></span></small>
-							</div>
-						</div>
-
-
+					<div ex:role="exhibit-view" 
+					ex:viewClass="Exhibit.TabularView"  
+					ex:label="Table"  
+					ex:columns=".label,.descrizione,.territorio"  
+					ex:columnLabels="Nome, Descrizione,Territorio" 
+					ex:columnFormats="list,list,list"
+					ex:tableStyler="tableStyler"> 
+					<div ex:role="exhibit-lens">
+						<table class="table" ex:class-content=".territorio">
+							<tr>
+								<td><a ex:href-content=".URL" target="new" ><strong><span ex:content=".label" class="petrusino"></strong></span></a></td>
+								<td><span ex:content=".descrizione"></td>
+								<td><span ex:content=".territorio"></span></td>
+							</tr>
+						</table>
 
 					</div>
+				</div> 
 
 
-				</div>
+
 
 			</div>
-			<hr>
-			<footer>
-				<p class="text-center">
-					<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licenza Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a> <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Petrusino</span> di<a xmlns:cc="http://creativecommons.org/ns#" href="http://opendatasicilia.it" property="cc:attributionName" rel="cc:attributionURL"> Open Data Sicilia</a> è distribuito con Licenza <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribuzione - Condividi allo stesso modo 4.0 Internazionale</a>.
-				</p>
-			</footer>
 
 		</div>
-	</body>
-	</html>
+		<hr>
+		<footer>
+			<p class="text-center">
+				<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licenza Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a> <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Petrusino</span> di<a xmlns:cc="http://creativecommons.org/ns#" href="http://opendatasicilia.it" property="cc:attributionName" rel="cc:attributionURL"> Open Data Sicilia</a> è distribuito con Licenza <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribuzione - Condividi allo stesso modo 4.0 Internazionale</a>.
+			</p>
+		</footer>
+
+	</div>
+</body>
+</html>
