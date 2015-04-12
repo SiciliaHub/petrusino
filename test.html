@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+	<meta charset="utf-8">
+	<title>Petrosino, ... perché certi siti, apps, mappe, servizi sono un po' come il prezzomolo e non è facili distinguerli ... </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
+	<!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
+	<!--script src="js/less-1.3.3.min.js"></script-->
+	<!--append ‘#!watch’ to the browser URL, then refresh the page. -->
+	
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+
+	<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  	<!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="img/favicon.png">
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+
+    <link rel="exhibit/data" 
+    type="application/jsonp"
+    href="https://spreadsheets.google.com/feeds/list/1H38J-cLEAt8VhDuhMvJgSGH4KzT0LrhFl9tvGTQpqWI/od6/public/basic?alt=json-in-script"
+    ex:converter="googleSpreadsheets" />
+
+
+    <script src="https://api.simile-widgets.org/exhibit/current/exhibit-api.js?locale=en" type="text/javascript"></script>
+
+    <style>
+
+
+    .exhibit-tileView-body { list-style: none; }
+    .exhibit-collectionView-group-count { display: none; }
+
+
+    div.app-thumbnail {
+    	float:      left;
+    	width:      19.7em;
+    	height:     16em;
+    	border:     1px solid #BCB79E;
+    	background: #F2F2F2;
+    	padding:    1em;
+    	margin:     0.3em;
+    	overflow-y:auto;
+    	/*overflow: hidden;
+    	background-size: cover;
+    	background-position: 50%;
+    	background-repeat: no-repeat;*/
+    }
+
+    hr { display: block; height: 1px;
+    	border: 0; border-top: 1px solid #5CB85C;
+    	margin: 1em 0; padding: 0; } 
+
+    	.petrosino {
+    		color: #5CB85C !important;
+    	}
+
+    	.highlight {
+    		padding: 9px 14px;
+    		margin-bottom: 14px;
+    		background-color: #f7f7f9;
+    		border: 1px solid #e1e1e8;
+    		border-radius: 4px;
+    	}
+
+    	</style>
+
+    </head>
+
+    <body>
+    	<div class="container">
+    		<div class="row clearfix">
+    			<div class="col-md-12 column">
+    				<nav class="navbar navbar-default" role="navigation">
+    					<div class="navbar-header">
+    						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> 
+    						<a class="navbar-brand" href="./index.html">
+    							<img style="max-width:100px; margin-top: -14px;"	src="./img/pitrusino.png">
+    						</a>
+    					</div>
+
+    					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    						<ul class="nav navbar-nav">
+    							<li class="active">
+    								<a href="./index.html">Home</a>
+    							</li>
+    							<li>
+    								<a href="./cosa.html">Cosa &egrave;</a>
+    							</li>							
+    							<li>
+    								<a href="./proponi.html">Proponi</a>
+    							</li>
+    							<li>
+    								<a href="#">Open</a>
+    							</li>
+							<!-- <li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<strong class="caret"></strong></a>
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#">Action</a>
+									</li>
+									<li>
+										<a href="#">Another action</a>
+									</li>
+									<li>
+										<a href="#">Something else here</a>
+									</li>
+									<li class="divider">
+									</li>
+									<li>
+										<a href="#">Separated link</a>
+									</li>
+									<li class="divider">
+									</li>
+									<li>
+										<a href="#">One more separated link</a>
+									</li>
+								</ul>
+							</li> -->
+						</ul>
+						<ul class="nav navbar-nav navbar-right">
+							<li>
+								<a href="http://opendatasicilia.it/">OpenDataSicilia</a>
+							</li>
+						</ul>
+					</div>
+
+				</nav>
+			</div>
+		</div>
+
+		<div class="row clearfix">
+			<div class="col-md-2 column">
+
+			</div>
+
+			<div class="col-md-8 column">
+				<p class="text-center">... perch&eacute; certi <span class="btn btn-primary btn-xs"><strong>siti</strong></span>, <span class="btn btn-danger btn-xs"><strong>apps</strong></span>, <span class="btn btn-info btn-xs"><strong>mappe</strong></span>, <span class="btn btn-warning btn-xs"><strong>servizi</strong></span> sono un po' come il <span class="btn btn-success btn-xs"><strong>prezzomolo</strong></span> e non &egrave; facili distinguerli ...</p>
+			</div>
+			<div class="col-md-2 column">
+
+			</div>
+
+		</div>		
+		<div class="row clearfix">
+			<div class="col-md-1 column">
+
+			</div>
+			<div class="col-md-10 column">
+				<strong>Cerca</strong><div ex:role="facet" ex:facetClass="TextSearch"></div>
+			</div>
+			<div class="col-md-1 column">
+
+			</div>
+		</div>
+		<div class="row clearfix">
+			<div class="col-md-8 column">
+				<div ex:role="facet" 
+				ex:facetClass="Cloud"
+				ex:expression=".categoria" 
+				ex:facetLabel="Categoria"
+				ex:sortMode="count"></div>
+			</div>
+			<div class="col-md-2 column">
+				<div ex:role="facet" 
+				ex:expression=".territorio" 
+				ex:facetLabel="Territorio"
+				ex:sortMode="count"></div>
+			</div>
+			<div class="col-md-2 column">
+				<div ex:role="facet" ex:expression=".type" ex:facetLabel="Tipo">
+				</div>
+			</div>
+		</div>
+		<div class="row clearfix">
+			<div class="col-md-12 column">
+
+				<div ex:role="viewPanel" style="padding: 0in;">
+
+
+					<div ex:role="view" ex:viewClass="Thumbnail" ex:showAll="true" ex:orders=".label" ex:grouped="false">
+
+						<div ex:role="exhibit-lens" class="app-thumbnail thumbnail" style="display: none;">
+							<div class="text-center">
+								<a ex:href-content=".URL" target="new" ><strong><span ex:content=".label" class="petrosino"></strong></span></a>
+							</div>
+							<div>
+								<span ex:content=".descrizione"></span>
+							</div>
+							<hr>
+							<div>
+								<small><span><strong>Categoria: </strong></span><span ex:content=".categoria" class="text-uppercase"></span></small>
+								<br>
+								<small><span><strong>Territorio: </strong></span></strong><span ex:content=".territorio" class="text-uppercase"></span></small>
+							</div>
+						</div>
+
+
+
+					</div>
+
+
+				</div>
+
+			</div>
+			<hr>
+			<footer>
+				<p class="text-center">
+					<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licenza Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a> <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Petrusino</span> di<a xmlns:cc="http://creativecommons.org/ns#" href="http://opendatasicilia.it" property="cc:attributionName" rel="cc:attributionURL"> Open Data Sicilia</a> è distribuito con Licenza <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribuzione - Condividi allo stesso modo 4.0 Internazionale</a>.
+				</p>
+			</footer>
+
+		</div>
+	</body>
+	</html>
