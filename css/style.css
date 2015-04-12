@@ -16,11 +16,11 @@ div.app-thumbnail {
 }
 
 hr { display: block; height: 1px;
- border: 0; border-top: 1px solid #5CB85C;
+ border: 0; border-top: 1px solid #47A447;
  margin: 1em 0; padding: 0; } 
 
  .petrosino {
-  color: #5CB85C !important;
+  color: #47A447 !important;
 }
 
 .highlight {
@@ -42,4 +42,20 @@ ul.share-buttons li{
 
 .logo {
   padding: 0px 15px !important;
+}
+
+ul.nav li a, ul.nav li a:visited {
+    color: #47A447 !important;
+}
+
+ul.nav li a:hover, ul.nav li a:active {
+    color: #47A447 !important;
+}
+
+ul.nav li.active a {
+    color: #47A447 !important;
+}
+
+a {
+    color: #47A447 !important;
 }
