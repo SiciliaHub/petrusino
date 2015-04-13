@@ -66,8 +66,8 @@ Exhibit.Localization.importLocale("it", {
     "%import.failedAccessHttpStatus": " (HTTP %1$d)",
     "%import.missingFragment": "Failed to locate fragment in %1$s",
 
-    "%database.itemType.label": "Risorsa",
-    "%database.itemType.pluralLabel": "Risorse",
+    "%database.itemType.label": "risorsa",
+    "%database.itemType.pluralLabel": "risorse",
     "%database.labelProperty.label": "label",
     "%database.labelProperty.pluralLabel": "labels",
     "%database.labelProperty.reverseLabel": "label of",
@@ -196,7 +196,7 @@ Exhibit.Localization.importLocale("it", {
     "%widget.collectionSummary.resetActionTitle": "Annulla tutti i filtri",
     "%widget.collectionSummary.allResultsTemplate": "<span class=\"%1$s\" id=\"resultDescription\"></span>",
     "%widget.collectionSummary.noResultsTemplate": "<span class=\"%1$s\"><span class=\"%2$s\">0</span> results</span> (<span id=\"resetActionLink\"></span>)",
-    "%widget.collectionSummary.filteredResultsTemplate": "<span class=\"%1$s\" id=\"resultDescription\"></span> filtered from <span id=\"originalCountSpan\">0</span> originally (<span id=\"resetActionLink\"></span>)",
+    "%widget.collectionSummary.filteredResultsTemplate": "<span class=\"%1$s\" id=\"resultDescription\"></span> su <span id=\"originalCountSpan\">0</span> (<span id=\"resetActionLink\"></span>)",
 
     "%formatter.listSeparator": ", ",
     "%formatter.listLastSeparator": ", and ",
