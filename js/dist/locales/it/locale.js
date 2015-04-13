@@ -189,7 +189,7 @@ Exhibit.Localization.importLocale("it", {
     "%orderedViewFrame.error.possibleOrderObject": "Bad possible order object: %1$s",
     "%orderedViewFrame.error.noSuchPropertyOrderWarning": "No such property %1$s available for ordering",
 
-    "%widget.bookmark.tooltip": "Click to generate a bookmark for your current browsing state",
+    "%widget.bookmark.tooltip": "Fai click qui per generare un bookmark con i filtri che hai applicato",
 
     "%widget.collectionSummary.resetFiltersLabel": "Annulla tutti i filtri",
     "%widget.collectionSummary.resetFiltersTooltip": "Clear all filters and see the original items",
