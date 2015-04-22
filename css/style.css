@@ -59,3 +59,7 @@ ul.nav li.active a {
 a {
     color: #47A447 !important;
 }
+
+.exhibit-toolboxWidget-button {
+    visibility: hidden !important;
+}
