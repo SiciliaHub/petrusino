@@ -151,9 +151,11 @@
 					<div ex:role="exhibit-view" 
 					ex:viewClass="Exhibit.TabularView"  
 					ex:label="Table"  
-					ex:columns=".label,.descrizione,.territorio"  
-					ex:columnLabels="Nome, Descrizione,Territorio" 
-					ex:columnFormats="list,list,list"
+					ex:columns=".label,.descrizione,.territorio,.data_inserimento"  
+					ex:columnLabels="Nome, Descrizione,Territorio, Data inserimento" 
+					ex:columnFormats="list,list,list,list"
+					ex:sortColumn="3"
+					ex:sortAscending="false"
 					ex:tableStyler="tableStyler"> 
 					<div ex:role="exhibit-lens">
 						<div class="table-responsive">
@@ -162,6 +164,7 @@
 									<td><a ex:href-content=".URL" target="new" ><strong><span ex:content=".label" class="petrusino"></strong></span></a></td>
 									<td><span ex:content=".descrizione"></td>
 									<td><span ex:content=".territorio"></span></td>
+									<td><span ex:content=".data_inserimento" ></span></td>
 								</tr>
 							</table>
 						</div>
