@@ -155,7 +155,7 @@
 					data-ex-view-Class="Exhibit.TabularView"  
 					data-ex-label="Table"  
 					data-ex-columns=".label,.descrizione,.territorio,.data_inserimento"  
-					data-ex-column-Labels="Nome, Descrizione,Territorio, Data inserimento" 
+					data-ex-column-Labels="Nome, Descrizione,Territorio, Js-Test" 
 					data-ex-column-Formats="list,list,list,list"
 					data-ex-sort-Column="3"
 					data-ex-sort-Ascending="false"
@@ -164,10 +164,10 @@
 						<div class="table-responsive">
 							<table class="table" data-ex-class-content=".territorio">
 								<tr>
-									<td><a data-ex-href-content=".URL" target="new" ex-content=".URL"><strong><span data-ex-content=".label" class="petrusino"></strong></span></a></td>
+									<td><a data-ex-href-content=".URL" target="new"><strong><span data-ex-content=".label" class="petrusino"></strong></span></a></td>
 									<td><span data-ex-content=".descrizione"></td>
 									<td><span data-ex-content=".territorio"></span></td>
-									<td><span data-ex-content=".data_inserimento" ></span></td>
+									<td><a data-ex-href-content=".URL" data-ex-onclick-content=".URL">my text</span></a></td>
 								</tr>
 							</table>
 						</div>
