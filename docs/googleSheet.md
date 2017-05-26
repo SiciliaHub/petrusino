@@ -4,11 +4,15 @@ Google sheet è una delle fonti con cui è possibile alimentare Simili Exhibit e
 
 ## Come accedere ai dati
 
+Da scrivere ...
+
 ## Come puntare a dati di un foglio elettronico multi sheet
 
 Nel caso di fogli multipli l'URL per puntare allo sheet non è di immediata costruzione.
 
-Il punto di partenza teorico è questo: [sheet API](https://developers.google.com/sheets/api/v3/worksheets). Ecco un esempio pratico
+Il punto di partenza teorico è questo: [sheet API](https://developers.google.com/sheets/api/v3/worksheets).
+
+Ecco un esempio pratico.
 
 A partire da uno [spreadsheet di esempio](https://docs.google.com/spreadsheets/d/1m45f7Acta5HJyl3-wor0UlqW8-yKl3oE9pHQieGM984) composto da due foglie, si copia l'ID del foglio. Che in questo caso è `1m45f7Acta5HJyl3-wor0UlqW8-yKl3oE9pHQieGM984`.
 
@@ -27,19 +31,15 @@ xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opens
 ```
 
 
-In questo codice i dettagli dei due fogli che compongono lo sheet di esempio, tra cui l'identificativo del secondo foglio, che in questo caso è `oyl1tnj`: 
+In questo codice i dettagli dei due fogli che compongono lo sheet di esempio, tra cui l'identificativo del secondo foglio, che in questo caso è `oyl1tnj`:
 
     https://spreadsheets.google.com/feeds/worksheets/1m45f7Acta5HJyl3-wor0UlqW8-yKl3oE9pHQieGM984/private/full/oyl1tnj
 
 Estratto l'id del foglio, l'URL per exhibit sarà
 
     https://spreadsheets.google.com/feeds/list/1m45f7Acta5HJyl3-wor0UlqW8-yKl3oE9pHQieGM984/oyl1tnj/public/basic?hl=en_US&alt=json-in-script
-	
+
 Nota:
 
 - `1m45f7Acta5HJyl3-wor0UlqW8-yKl3oE9pHQieGM984` è l'ID del google sheet;
 - `oyl1tnj` è l'id del foglio di nostro interesse, tra i due che compongono il lo sheet.
-
-
-
-
