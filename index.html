@@ -47,6 +47,15 @@
 
     <script type="text/javascript" src="./js/ga.js"></script>
 
+	<script>
+var trackOutboundLink = function(url) {
+   ga('send', 'event', 'outbound', 'click', url, {
+     'transport': 'beacon',
+     'hitCallback': function(){window.open(url, '_blank');}
+   });
+}
+ </script>
+
     <script type="text/javascript">
     var tableStyler = function(table, database) {
     	$(table).addClass("table table-condensed table-striped");
