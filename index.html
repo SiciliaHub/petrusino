@@ -35,10 +35,18 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
 
+    <!-- vecchia impostazione 
     <link rel="exhibit/data" 
     type="application/jsonp"
     href="https://spreadsheets.google.com/feeds/list/1H38J-cLEAt8VhDuhMvJgSGH4KzT0LrhFl9tvGTQpqWI/od6/public/basic?alt=json-in-script"
-    ex:converter="googleSpreadsheets" />
+    ex:converter="googleSpreadsheets" /> 
+    -->
+	
+    <!-- nuova impostazione -->
+    <link rel="exhibit/data" 
+	  data-ex-value-separator=","
+    type="text/tsv"
+    href="https://docs.google.com/spreadsheets/d/e/1H38J-cLEAt8VhDuhMvJgSGH4KzT0LrhFl9tvGTQpqWI/pub?output=tsv"     />
 
 
     <script src="./js/dist/exhibit-api.js?locale=it"></script>
@@ -173,7 +181,7 @@ var trackOutboundLink = function(url) {
 						<div class="table-responsive">
 							<table class="table" ex:class-content=".territorio">
 								<tr>
-									<td><a ex:href-content=".URL" ex:onclick-subcontent="trackOutboundLink('{{.URL}}'); return false;" target="_blank"><strong><span ex:content=".label" class="petrusino"></strong></span></a></td>
+									<td><a ex:href-content=".URL" ex:onclick-subcontent="trackOutboundLink('.URL'); return false;" target="_blank"><strong><span ex:content=".label" class="petrusino"></strong></span></a></td>
 									<td><span ex:content=".descrizione"></td>
 									<td><span ex:content=".territorio"></span></td>
 									<td><span ex:content=".data_inserimento" ></span></td>
