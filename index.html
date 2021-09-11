@@ -15,7 +15,7 @@
 	<!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
 	<!--script src="js/less-1.3.3.min.js"></script-->
 	<!--append ‘#!watch’ to the browser URL, then refresh the page. -->
-	
+
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 
@@ -35,23 +35,23 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
 
-    <!-- vecchia impostazione 
-    <link rel="exhibit/data" 
+    <!-- vecchia impostazione
+    <link rel="exhibit/data"
     type="application/jsonp"
     href="https://spreadsheets.google.com/feeds/list/1H38J-cLEAt8VhDuhMvJgSGH4KzT0LrhFl9tvGTQpqWI/od6/public/basic?alt=json-in-script"
-    ex:converter="googleSpreadsheets" /> 
+    ex:converter="googleSpreadsheets" />
     -->
-	
+
     <!-- nuova impostazione -->
-    <link rel="exhibit/data" 
-	  data-ex-value-separator=","
+    <link rel="exhibit/data"
+	  ex:valueSeparator=","
     type="text/csv"
     href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRMGF9LE7_T9LNFKAZnjCSZz5E1pNvjue9MOz1VwexsqgzcgLIxYAU0dkCciSZpy9J8-sGMt2lxnqEe/pub?output=csv"     />
 
 
     <script src="./js/dist/exhibit-api.js?locale=it"></script>
 
-    
+
 
     <script type="text/javascript" src="./js/ga.js"></script>
 
@@ -80,7 +80,7 @@ var trackOutboundLink = function(url) {
 			<div class="col-md-12 column">
 				<nav class="navbar navbar-default" role="navigation">
 					<div class="navbar-header">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> 
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
 						<a class="navbar-brand logo" href="./index.html">
 							<img style="max-width:100px; margin-top: 7px;"	src="./img/pitrusino.png">
 						</a>
@@ -93,7 +93,7 @@ var trackOutboundLink = function(url) {
 							</li>
 							<li>
 								<a href="./cosa.html">Cosa &egrave;</a>
-							</li>							
+							</li>
 							<li>
 								<a href="./proponi.html">Proponi</a>
 							</li>
@@ -128,7 +128,7 @@ var trackOutboundLink = function(url) {
 				</ul>
 			</div>
 
-		</div>		
+		</div>
 		<div class="row clearfix">
 			<div class="col-md-1 column">
 
@@ -140,23 +140,23 @@ var trackOutboundLink = function(url) {
 
 			</div>
 		</div>
-		<div class="row clearfix">                                   
+		<div class="row clearfix">
 			<div class="col-md-12 column">
-				<div ex:role="facet" 
+				<div ex:role="facet"
 				ex:facetClass="Cloud"
-				ex:expression=".categoria" 
+				ex:expression=".categoria"
 				ex:facetLabel="Categoria"
 				ex:sortMode="count"></div>
-			</div>                                                 
+			</div>
 			<div class="col-md-3 column">
-				<div ex:role="facet" 
-				ex:expression=".territorio" 
+				<div ex:role="facet"
+				ex:expression=".territorio"
 				ex:facetLabel="Territorio"
 				ex:sortMode="count"></div>
 			</div>
 			<div class="col-md-3 column">
-				<div ex:role="facet" 
-				ex:expression=".tipo" 
+				<div ex:role="facet"
+				ex:expression=".tipo"
 				ex:facetLabel="Tipo"
 				data-ex-missing-label="Non specificato"
 				ex:sortMode="count">
@@ -169,15 +169,15 @@ var trackOutboundLink = function(url) {
 				<div ex:role="viewPanel" style="padding: 0in;">
 
 
-					<div ex:role="exhibit-view" 
-					ex:viewClass="Exhibit.TabularView"  
-					ex:label="Table"  
-					ex:columns=".label,.descrizione,.territorio,.data_inserimento"  
-					ex:columnLabels="Nome, Descrizione,Territorio, Data inserimento" 
+					<div ex:role="exhibit-view"
+					ex:viewClass="Exhibit.TabularView"
+					ex:label="Table"
+					ex:columns=".label,.descrizione,.territorio,.data_inserimento"
+					ex:columnLabels="Nome, Descrizione,Territorio, Data inserimento"
 					ex:columnFormats="list,list,list,list"
 					ex:sortColumn="3"
 					ex:sortAscending="false"
-					ex:tableStyler="tableStyler"> 
+					ex:tableStyler="tableStyler">
 					<div ex:role="exhibit-lens">
 						<div class="table-responsive">
 							<table class="table" ex:class-content=".territorio">
@@ -191,7 +191,7 @@ var trackOutboundLink = function(url) {
 						</div>
 
 					</div>
-				</div> 
+				</div>
 
 
 
